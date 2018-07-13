@@ -1,78 +1,33 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <RootNamespace>libcohort</RootNamespace>
-    <AssemblyName>Landis.Library.Cohorts</AssemblyName>
-    <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
-    <UpdateInterval>7</UpdateInterval>
-    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
-    <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <UseApplicationTrust>false</UseApplicationTrust>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <RootNamespace>Landis.Library.Cohorts</RootNamespace>
+    <AssemblyName>Landis.Library.Cohorts-v2</AssemblyName>
+    <AssemblyTitle>Landis.Library.Cohorts-v2</AssemblyTitle>
+    <AssemblyCompany>Landis-II-Foundation</AssemblyCompany>
+    <AssemblyProduct>Landis.Library.Cohorts-v2</AssemblyProduct>
+    <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>
+    <AssemblyVersion>2.0</AssemblyVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Library-Base-Cohort/blob/master/LICENSE</PackageLicenseUrl>
-    <Copyright>LANDIS-II Foundation</Copyright>
-    <PackageProjectUrl>https://sites.google.com/site/landismodel/home</PackageProjectUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Library-Base-Cohort</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <PackageTags>LANDIS-II;Landis;Library;Cohorts</PackageTags>
+    <RepositoryType>git</RepositoryType>    
+    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Library-Base-Cohort/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>http://www.landis-ii.org</PackageProjectUrl>    
     <NeutralLanguage>Enblish</NeutralLanguage>
+    <Authors>Landis-II-Foundation</Authors>
+    <Product>Landis.Library.Cohorts-v2</Product>    
+    <Copyright>LANDIS-II Foundation</Copyright>
+    <Version>2.0</Version>
+    <PackageTags>LANDIS-II;Landis;Library;Cohorts</PackageTags>
+    <Description>Age-only cohorts are the base type with only cohort age and species.</Description>
+    <PackageReleaseNotes>.NET Standard 2.0 update.</PackageReleaseNotes>        
+    <FileVersion>7.0</FileVersion>
   </PropertyGroup>
-
+  
+ 
   <ItemGroup>
-    <PackageReference Include="Landis.Core" Version="1.0.0" />
-    <PackageReference Include="Landis.SpatialModeling" Version="1.0.0" />
-  </ItemGroup>
-  
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>c:\Program Files\LANDIS-II\6.0\bin\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  
-  <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
-      <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
-      <Visible>False</Visible>
-      <ProductName>Windows Installer 3.1</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
+    <PackageReference Include="Landis.Core" Version="2.0.0" />
   </ItemGroup>
   
 </Project>
