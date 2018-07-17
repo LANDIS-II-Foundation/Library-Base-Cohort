@@ -1,6 +1,6 @@
 using Landis.Core;
 
-namespace Landis.Cohorts.TypeIndependent
+namespace Landis.Library.Cohorts.TypeIndependent
 {
     /// <summary>
     /// A type-independent interface to an individual cohort for a species.

@@ -1,4 +1,4 @@
-namespace Landis.Cohorts.TypeIndependent
+namespace Landis.Library.Cohorts.TypeIndependent
 {
     /// <summary>
     /// Information about a cohort's attribute.
