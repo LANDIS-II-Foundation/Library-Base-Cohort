@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <RootNamespace>Landis.Cohorts</RootNamespace>
+    <RootNamespace>Landis.Library.Cohorts</RootNamespace>
     <AssemblyName>Landis.Library.Cohorts-v2</AssemblyName>
     <AssemblyTitle>Landis.Library.Cohorts-v2</AssemblyTitle>
     <AssemblyCompany>LANDIS-II Foundation</AssemblyCompany>
